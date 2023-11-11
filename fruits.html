@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Cake Shop Landing Page</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <div class="header-content-div">
+        <a href="#home-sec">
+          <img
+            src="logo.png"
+            alt="Cake Shop Logo"
+            id="header-img"
+        /></a>
+        <nav id="nav-bar">
+          <a href="#about" class="nav-link">ABOUT</a>
+          <a href="#varieties" class="nav-link">CAKE VARIETIES</a>
+          <a href="#our-service" class="nav-link">OUR SERVICE</a>
+          <a href="#benefits" class="nav-link">BENEFITS</a>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section id="home-sec" class="flexible home-sec">
+        <div class="eye-grabber-img">
+          <img src="https://www.thecakeshop.co.in/assets/images/image01/welcome-cake-2.png" alt="Image of Cakes" />
+        </div>
+        <div class="eye-grabber">
+          <h1>Delicious, Irresistible, Divine.</h1>
+          <h2>
+            100% Freshly baked, heavenly varieties of cakes for every occasion.
+          </h2>
+          <button class="btn" onclick="window.location.href = '#contact';">
+            Order Now
+          </button>
+        </div>
+      </section>
+      <section id="about" class="sec-padding">
+        <h3 class="section-heading">ABOUT US</h3>
+        <div class="sec-content-div flexible">
+          <p>
+            We are passionate bakers with years of experience in crafting and
+            baking delightful cakes. Our cakes are made with the finest
+            ingredients, and each creation is a testament to our commitment to
+            quality and taste. From birthdays to weddings, our cakes are
+            designed to make every celebration extra special.
+            What sets us apart is our dedication to using only the finest
+            ingredients. From velvety chocolate to fragrant vanilla, each cake is
+            made with love and attention to detail. Whether you're celebrating a
+            birthday, wedding, or any special moment, our cakes are designed to
+            add sweetness to your life.
+          </p>
+          <img src="https://www.thecakeshop.co.in/assets/web/images/slider/1680330452_1b0bda2b55e61b31c17b73baab62f96f_banner.png" alt="Baker decorating a cake" />
+        </div>
+      </section>
+      <section id="varieties" class="sec-padding">
+        <h3 class="section-heading">CAKE VARIETIES</h3>
+        <div class="sec-content-div flexible">
+          <div class="tile">
+            <img src="https://www.thecakeshop.co.in/assets/images/image01/welcome-cake-3.png" alt="photo of chocolate cake" />
+            <h4>Chocolate Cake</h4>
+            <p>
+              Rich and decadent, our chocolate cake is a classic favorite,
+              perfect for indulging your sweet tooth.
+            </p>
+          </div>
+          <div class="tile">
+            <img
+              src="https://www.thecakeshop.co.in/assets/images/image01/welcome-cake-5.png"
+              alt="photo of vanilla cake"
+            />
+            <h4>Vanilla Cake</h4>
+            <p>
+              Light and fluffy, our vanilla cake is a timeless treat suitable
+              for any occasion.
+            </p>
+          </div>
+          <div class="tile">
+            <img src="https://www.thecakeshop.co.in/assets/images/image01/welcome-cake-4.png" alt="photo of red velvet cake" />
+            <h4>Red Velvet Cake</h4>
+            <p>
+              A luscious and velvety delight, our red velvet cake is sure to
+              captivate your taste buds.
+            </p>
+          </div>
+          <!-- Add more cake varieties as needed -->
+        </div>
+      </section>
+      <section id="our-service" class="sec-padding">
+        <h3 class="section-heading">OUR SERVICE</h3>
+        <div class="sec-content-div">
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/w6H542X/Fresh.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fresh</h5>
+              <p>We deliver freshly baked cakes with a 100% guarantee of freshness.</p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/FKNq4Qr/delivered.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Fast</h5>
+              <p>
+                We deliver your cake orders as fast as possible, ensuring they
+                reach you at their most delicious state.
+              </p>
+            </div>
+          </div>
+          <div class="bars">
+            <div class="icon-container">
+              <img src="https://i.ibb.co/HHQK1wV/happy.png" alt="" />
+            </div>
+            <div class="txt-container">
+              <h5>Satisfying</h5>
+              <p>
+                We guarantee 100% customer satisfaction. Your joy is our success,
+                and we strive to make every cake experience delightful.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="benefits" class="sec-padding">
+        <h3 class="section-heading">BENEFITS</h3>
+        <div class="sec-content-div flexible">
+          <iframe
+            id="video"
+            width="560"
+            title="Benefits of Cake"
+            height="315"
+            src="https://www.youtube.com/embed/W_JOJNztrnI"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <section class="sec-padding" id="contact">
+        <h3 class="section-heading">CONTACT</h3>
+        <div class="sec-content-div flexible">
+          <h6>To order or inquire about our cakes, contact us:</h6>
+          <form
+            id="form"
+            action="https://www.example.com/contact"
+            method="POST"
+          >
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Your Email Address"
+              required
+            />
+            <input type="submit" class="btn" id="submit" value="Contact Us" />
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer>
+      Created by
+      <a href="#">Your Name</a>
+    </footer>
+  </body>
+</html>
